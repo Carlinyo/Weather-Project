@@ -1,0 +1,14 @@
+.canvas{
+    width: 430px;
+}
+
+canvas{
+    background-color: white;
+    border-radius: 15px;
+}
+
+@media(max-width:900px){
+    .canvas{
+        width: 320px;
+    }
+}

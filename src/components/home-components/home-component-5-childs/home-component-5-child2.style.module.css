@@ -1,0 +1,68 @@
+.line{
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    transform: rotate(90deg);
+}
+
+.Container{
+    margin-top: 60px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #8AB1FF;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Container>h2{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 20;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Courier New', monospace;
+    z-index: 20;
+}
+
+.about>h1{
+    margin-top: 0;
+    margin-bottom:0 ;
+    font-size: 80px;
+}
+
+.aboutChild>p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-weight: 600;
+    font-family:'Courier New', monospace;
+}
+
+.realSun{
+    width: 60%;
+    position: absolute;
+    right: -80px;
+    top: -80px;
+}
+
+.Clouds{
+    position: absolute;
+    top: -90px;
+    left: -10px;
+    right: 0;
+    width: 100%;
+    opacity: 0.5;
+}

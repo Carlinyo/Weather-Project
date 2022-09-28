@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+}
+
+.active{
+    background-color: #FF75A5;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+.canvas{
+    border-radius: 15px;
+    z-index: 21;
+}
+
+.active,.disabled{
+    padding: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}

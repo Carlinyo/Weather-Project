@@ -1,0 +1,79 @@
+.dayCard{
+    background-color: white;
+    border-radius: 25px;
+    min-height: 120px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dayCard>img{
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 90px;
+}
+
+.ul{
+    font-size: 10px;
+    padding: 0;
+    padding-bottom: 5px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin: 0;
+}
+
+.ul>li{
+    font-size: 11px;
+    list-style-type: none;
+}
+
+.dayCardChild{
+    position: relative;
+    bottom: 15px;
+}
+
+.dayCardChild>span{
+    position: relative;
+    bottom: 11px;
+    font-weight: 600;
+}
+
+.dayCardChild>p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wind{
+    background-color: #F0FFF6;
+    border-radius: 10px;
+    width: 100px;
+    height: 80px;
+    color: #0FD860;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.wind>p{
+    font-size: 13px;
+}
+
+@media(max-width:900px){
+    .wind{
+        font-size: 10px;
+    }
+}

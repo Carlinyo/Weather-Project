@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.container>span{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    color: #6497FF;
+}
+
+.container>p{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}

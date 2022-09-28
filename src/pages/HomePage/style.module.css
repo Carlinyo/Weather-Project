@@ -1,0 +1,91 @@
+.Container {
+  min-height: 50px;
+  background-color: #f0f5ff;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.menu {
+  height: 440px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  bottom: 0;
+  margin: auto;
+  background-color: #8ab1ff;
+}
+
+.menuDiv {
+  position: relative;
+}
+
+.FirstmenudivChild1,
+.menudivChild1 {
+  height: 30px;
+  width: 70%;
+  position: absolute;
+  top: -30px;
+  left: -15px;
+  right: 0;
+  border-bottom-left-radius: 90px;
+}
+
+.FirstmenudivChild1 {
+    border-bottom: 20px solid#FF75A5;
+    border-left: 10px solid #FF75A5;
+}
+
+.menudivChild1 {
+  border-bottom: 20px solid#8ab1ff;
+  border-left: 10px solid #8ab1ff;
+}
+
+.EndmenudivChild2{
+    border-top: 40px solid#FF75A5;
+    border-left: 10px solid #FF75A5;
+}
+
+.EndmenudivChild2,.menudivChild2{
+    height: 30px;
+    width: 70%;
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    right: 0;
+    border-top-left-radius: 90px;
+}
+
+.menudivChild2 {
+    border-top: 40px solid#8ab1ff;
+    border-left: 10px solid #8ab1ff;
+}
+
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+.three_divs_container {
+  display: flex;
+}
+
+@media (max-width:1400px){
+  .three_divs_container{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width:900px){
+  .container{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu{
+    display: none;
+  }
+}

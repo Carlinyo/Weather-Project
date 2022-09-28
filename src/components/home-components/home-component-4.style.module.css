@@ -1,0 +1,29 @@
+.container{
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 25px;
+    width: 350px;
+}
+.first_second{
+    gap:20px;
+}
+
+@media (max-width:1400px){
+    .container{
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+}
+
+@media(max-width:900px){
+    .container{
+        max-width: 350px;
+    }
+}
+
+@media(max-width:500px){
+    .container{
+        margin-right:0;
+    }
+}

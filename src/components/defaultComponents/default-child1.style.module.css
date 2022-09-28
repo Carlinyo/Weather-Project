@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff8f0;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title > h3 {
+  display: flex;
+  align-items: center;
+}
+
+.Sunrise_Sunset {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sunrise_sunset {
+  display: flex;
+  gap: 10px;
+}
+
+.child > span {
+    color: grey;
+    font-size: 14px;
+}
+
+.child > p {
+    color: #5F92FF;
+    font-size: 18px;
+}

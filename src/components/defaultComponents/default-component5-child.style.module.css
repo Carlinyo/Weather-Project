@@ -1,0 +1,42 @@
+.container>p{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+.line{
+    width: 20px;
+    height: 2px;
+    transform: rotate(90deg);
+    background-color: white;
+}
+
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Courier New', monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.location_temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location_temp>h2{
+    margin-top: 0;
+}
+
+.location_temp>h4{
+    display: flex;
+    align-items: top;
+    margin-bottom: 0;
+}

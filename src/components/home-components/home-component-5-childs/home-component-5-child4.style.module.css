@@ -1,0 +1,14 @@
+.Container {
+  position: relative;
+  border: 3px dashed #f4b267;
+  background-color: rgba(244, 178, 103, 0.3);
+  min-height: 100px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.child {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
